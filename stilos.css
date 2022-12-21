@@ -1,0 +1,94 @@
+#botonCopiar{
+    display: none;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(0, 0, 0);
+
+}
+
+body {
+    background: rgb(212, 212, 212);
+}
+
+#vector{
+   position: absolute;
+   left: 5%;
+   top: 5%;
+
+}
+
+#info{
+    position: absolute;
+    left: 20%;
+    top: 50%;
+}
+
+#info2{
+    position: absolute;
+    left: 21%;
+    top: 50%;
+}
+#textoDesencriptado{
+    position: absolute;
+    left: 35%;
+    top: 20%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 32px;
+    color: rgb(0, 0, 0);
+    background: rgb(173, 173, 165);
+}
+
+
+#textoEncriptado{
+     position: absolute;
+     text-align: center;
+     color: aliceblue;
+     left: 20%;
+     top: 55%;
+     height: 10%;
+     width: 13% ;
+     font-size: 25px;
+     background: #0A3871;
+     border-radius: 24px;
+
+}
+    
+
+
+#botonEncriptado{
+    position: absolute;
+    left: 30%;
+    top: 70%;
+    height: 10%;
+    width: 15% ;
+    font-size: 25px;
+    background: #0A3871;
+    border-radius: 24px;
+}
+
+#botonDesencriptado{
+    position: absolute;
+    left: 50%;
+    top: 70%;
+    height: 10%;
+    width: 15% ;
+    font-size: 25px;
+    background: #0A3871;
+    border-radius: 24px;
+}
+
+
+#botonCopiar{
+    position: absolute;
+    left: 40%;
+    top: 85%;
+    height: 10%;
+    width: 15% ;
+    font-size: 25px;
+    background: #0A3871;
+    border-radius: 24px;
+
+}

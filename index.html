@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="EN">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stilos.css">
+    <script type="text/javascript" src="script.js"></script>
+    <title>CIFRADOR DE TEXTO</title>
+</head>
+<body>
+    <img id= vector src="Vector.png">
+    <img id= info src="infondo.png">
+    <img id= info2 src="info2.png">
+    <h1>CIFRADOR DE TEXTO...</h1>
+    <input type="text" id="textoEncriptado">
+    <textarea name="resultado" id="textoDesencriptado" cols="30" rows="10"></textarea>
+    <button type="button" id="botonEncriptado">ENCRIPTAR</button>
+    <button type="button" id="botonDesencriptado">DESENCRIPTAR</button>
+    <button type="button" id="botonCopiar">COPIAR</button>
+</body>
+<script>
+    var btn = document.querySelector("#botonEncriptado");
+    btn.onclick = encriptar;
+
+    var btn2 = document.querySelector("#botonDesencriptado");
+    btn2.onclick = desencriptar;
+
+    var btn3 = document.querySelector("#botonCopiar");
+    btn3.onclick = copiar;
+</script>
+</html>
